@@ -105,6 +105,10 @@ class GetVehicleResults extends Ajax {
 					'price'       => $vehicle->get_formatted_price(),
 					'mileage'     => $vehicle->get_formatted_mileage(),
 					'frdate'      => $vehicle->get_formatted_frdate(),
+					'fuel_type'   => $vehicle->get_fuel_type(),
+					'transmission'=> $vehicle->get_formatted_transmission(),
+					'power_ph'    => $vehicle->get_power_hp(),
+					'power_kw'    => $vehicle->get_power_kw(),
 					'vehicle'     => $vehicle
 				) );
 			}
