@@ -84,7 +84,7 @@ final class Plugin extends Pimple\Container {
 		add_action( 'init', function () {
 			add_image_size( 'wpcm_vehicle_single', 600, 400, true );
 			add_image_size( 'wpcm_vehicle_thumbnail', 150, 150, true );
-			add_image_size( 'wpcm_vehicle_listings_item', 100, 100, true );
+			add_image_size( 'wpcm_vehicle_listings_item', 500, 375, true );
 		} );
 
 		// Post status object
